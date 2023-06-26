@@ -745,7 +745,7 @@ Trả lời: $108$ lựa chọn.
 \begin{multicols}{2}
 	In this article, we discuss a few games and principles associated with solutions to the problems posed by the games.
 	\vskip 0.2cm
-	\PIbox{{\color{toancuabi}\textbf{Example} (Pigeons share a hole)\textbf{.}}
+	\PIbox{{\color{toancuabi}\textbf{Example} (Pigeonhole Principle)\textbf{.}}
 		Each square of a $3 \times 3$ board is filled with one of the numbers $-1, 0, +1$. See the figure below for an example.
 		Viet calculates the sums of the rows, columns, and two main diagonals. He found that there are at least two equal sums.
 		For example, in the example below, both the sums of the second and third rows are $0$.
@@ -771,9 +771,9 @@ Trả lời: $108$ lựa chọn.
 	\end{figure}
 	\textit{Solution.}
 	The answer is yes. The largest possible sum is $3$ and the smallest is $-3.$
-	So there are0 $7$ possible values $-3,-2,\ldots,2,3$ for $8$ sums, so two of them should be the same and therefore equal.
+	There are $7$ possible values $-3,-2,...,2,3$ for $8$ sums, so two of the sums must be equal to each other.
 	\vskip 0.1cm	
-	In above we applied the \textit{Pigeonhole principle: if $n+1$ or more pigeons are placed in $n$ holes, then one hole must contain two or more pigeons.} 
+	In this example, we have applied the Pigeonhole Principle: \textit{if $n+1$ or more pigeons are placed in $n$ holes, then one hole must contain two or more pigeons.} 
 	\vskip 0.2cm
 	\PIbox{{\color{toancuabi}\textbf{Example} (Nothing ever changes)\textbf{.}}
 		Each square of the  board contains a $+$ or $-$ signs, see the board the left,
@@ -875,7 +875,7 @@ Trả lời: $108$ lựa chọn.
 	Whatever the numbers in the two red squares, the product of their negates remain same.
 	Since the product of the red squares at the beginning is $-1,$ so it cannot be changed at all.
 	\vskip 0.1cm
-	In above we applied the \textit{Invariant Principle: In mathematics, an invariant is a property of a mathematical object
+	In this example, we have applied the Invariant Principle: \textit{In mathematics, an invariant is a property of a mathematical object
 		(or a class of mathematical objects) which remains unchanged after operations or transformations of a certain type are applied to the objects.} 
 	\vskip 0.2cm
 	\PIbox{{\color{toancuabi}\textbf{Example} (Integers are well--ordered)\textbf{.}}
@@ -884,42 +884,41 @@ Trả lời: $108$ lựa chọn.
 		So the students, leaving one by one, put on, at random, any pair of shoes big enough for their feet (each pair of shoes stay together).
 		Any student who couldn't find a pair of shoes big enough spent the night at the place of the party.
 		\vskip 0.1cm	
-		What is the largest number of students who might have had to spend the night? Show an example for this number.
+		What is the largest number of students who would have to spend the night? Show an example for this number.
 		\textit{Note that no two students wear the same size shoes.}}
 	\vskip 0.2cm
 	\textit{Solution.}
-	Easy to see that if the five students with smallest feet left first wearing all five largest pairs of shoes
+	It is easy to see that if the five students with smallest feet left first wearing all five largest pairs of shoes
 	then none of the remaining student can find a pair of shoes to leave.
-	Now let assume that there were $6$ students who would have to spent the night and there were $6$ pairs of shoes left,
-	then because $6 + 6 > 10,$ so there is a student with his pair of shoes is still at the place of the party. This is not possible!
+	Now let us assume that there were $6$ students who would have to spend the night. In that case, there would be $6$ pairs of shoes left. It is immediate to see that one of those $6$ pair of shoes would belong to one of the $6$ students. This is a contradiction and so the assumed situation could not happen.
 	\vskip 0.1cm
-	In above we applied the \textit{Well--Ordering Principle: the positive integers are well--ordered.
-		An ordered set is said to be well--ordered if each and every nonempty subset has a smallest or least element.} 
+	In this example, we have applied the \textit{Well--Ordering Principle: the positive integers are well--ordered.
+		An ordered set is said to be well--ordered if each and every nonempty subset In this example, we have applied.} 
 	\vskip 0.2cm
 	\PIbox{{\color{toancuabi}\textbf{Example} (Invariant to reach end--state with desired outcomes)\textbf{.}}
-		In a darkroom there are two tables. The first one is empty and the second one is cover by a layer of nickels
+		In a darkroom there are two tables. The first one is empty and the second one is covered by a layer of nickels
 		(one nickel thick, so no coin is on top of another), in which $31$ coins are tails up and the rest are heads up.}
 	\vskip 0.1cm
 	\PIbox{
 		Minh enters the room with the task of transferring some coins from the second table to the first table
 		(he wears gloves, so he cannot feel the faces of the coins). He can flip over any number of coins when transferring them.
 		\vskip 0.1cm
-		Is that possible when he leaves the room the number of nickels that are tails up is the same on both tables?}
+		Is it possible that when he leaves the room, the numbers of nickles are the same on both tables?}
 	\vskip 0.2cm
 	\textit{Solution.}
 	If Minh turns a coin on the second table during transfer to the first one,
-	then the number of coins \textit{tails--up} on the second table will be reduce by one if it was a \textit{tails--p} coin,
+	then the number of coins \textit{tails--up} on the second table will be reduced by one if it was a \textit{tails--p} coin,
 	or the number of coins \textit{tails--up} on the first table is increased by one if it was a \textit{heads--up} coin.
 	In any case, the difference between the \textit{tails--up} coins on the second and first tables will be reduced by one
 	(this is an \textit{invariant}.) Hence, after $31$ moves, they will be the same.
 	\vskip 0.1cm
-	In above we again applied the \textit{Invariant Principle} with a twist.
+	In this example, we have applied the \textit{Invariant Principle} with a twist.
 	Note that in every turn the difference between the \textit{tails--up} coins on the second and first tables will be reduced by one,
 	since at the beginning, in other words, at the \textit{start state} this difference is $31,$
 	thus after $31$ turns the game reaches the \textit{end--state} where the difference is $0.$
 	\vskip 0.2cm
 	\PIbox{{\color{toancuabi}\textbf{Example} (Winning positions)\textbf{.}}
-		Berry and Cherry take alternate turns in playing a two--player game removing marbles from a pile as follows:
+		In a two--player game, Berry and Cherry take turns removing marbles a pile as follows:
 		\vskip 0.1cm
 		$\bullet$ Berry always goes first.
 		\vskip 0.1cm
