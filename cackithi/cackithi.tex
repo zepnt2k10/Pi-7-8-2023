@@ -16,7 +16,7 @@
 	\vskip 0.1cm
 	Bắt đầu từ tháng $2$ hàng năm, giáo viên bộ môn Toán lớp $11$ sẽ đại diện đăng ký tham gia cho học sinh qua trang web của Sở giáo dục. Kỳ thi Olympic Toán lần thứ $23$ tại Pháp đã diễn ra vào thứ $4$ ngày $15$ tháng $03$ năm $2023$, được tổ chức bởi chính các giáo viên bộ môn Toán và tại những trường có học sinh tham gia kỳ thi. Học sinh trải qua hai bài thi độc lập, mỗi bài thi kéo dài $120$ phút trong cùng một ngày. 
 	\begin{figure}[H]
-		\vspace*{-7pt}
+		\vspace*{-10pt}
 		\centering
 		\captionsetup{labelformat= empty, justification=centering}
 		\includegraphics[width= 1\linewidth]{1}
@@ -432,4 +432,178 @@
 	[$1$] Les sujets et corrigés des olympiades de mathématiques $2023$ | Site pédagogique de Mathématiques (ac-nice.fr).
 	\vskip 0.05cm
 	[$2$] Les Olympiades nationales de mathématiques | Ministère de l'Education Nationale et de la Jeunesse. 
+\end{multicols}
+\newpage
+\begingroup
+\AddToShipoutPicture*{\put(150,690){\includegraphics[scale=1]{../tieude1.pdf}}}
+\centering
+\endgroup
+\vspace*{20pt}
+
+\begin{multicols}{2}
+	Trong phần đầu chuyên mục, chúng tôi sẽ trình bày với các bạn lời giải các bài toán trong trong kỳ thi toán của Đan Mạch mang tên nhà toán học Georg Mohr đăng trong số tháng $4/2023$. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{gocolympic}
+%		\caption{\small\textit{\color{}}}
+		\vspace*{-10pt}
+	\end{figure}
+	{\bf\color{cackithi} OC$\pmb{37.}$} Một con ếch nhảy vào các số nguyên trên trục số. Nếu đang ở một số $n$ chẵn, bước tiếp theo nó sẽ nhảy đến số $\dfrac{n}{2}.$ Nếu đang ở một $n$ số lẻ, nó sẽ nhảy đến số $n + 5$. Tại một thời điểm nó nhảy vào số $25$. Hỏi trước đó $3$ bước nó có thể ở những vị trí nào?
+	\vskip 0.1cm
+	\textit{Lời giải.} Do $n + 5$ là chẵn nếu $n$ là lẻ nên con ếch luôn nhảy từ một số lẻ đến một số chẵn.
+	Vì vậy khi con ếch ở một số lẻ $m$, trước đó một bước nó bắt buộc  phải ở số chẵn $2m.$ Còn  khi
+	con ếch ở một số chẵn $m$, trước đó một bước nó có $2$ khả năng: ở số chẵn $2m$ hoặc ở số lẻ $m - 5$.
+	\vskip 0.1cm
+	Theo lý luận ở trên ta có: khi con ếch ở số $25$, trước đó một bước nó phải ở số $50$. Trước đó $2$ bước, nó phải ở  số $100$ hoặc $45$. 
+	Trước đó $3$ bước có $3$ vị trí ếch có thể ở là: $90$, $95$ và $200$.
+	\vskip 0.1cm
+	{\bf\color{cackithi} OC$\pmb{38.}$} Các số $1, 2, 3, \cdots, 16$  được đặt trong $16$ ô vuông xung quanh một bảng ô vuông cỡ $5\times 5$ như hình bên sao cho tổng của $5$ số trên mỗi cạnh của hình vuông là bằng nhau. 
+	Tổng nhỏ nhất có thể có của bốn số trong các ô vuông ở góc là bao nhiêu?
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[scale=0.9,cackithi]
+			\draw (0,0) grid (5,5);
+			\draw[fill=white] (1,1) rectangle(4,4);
+		\end{tikzpicture}
+		\vspace*{-10pt}
+	\end{figure}
+	\textit{Lời giải.} Đặt $S$ là  tổng của $4$ số ở góc và  $a$ là  tổng của các số trong mỗi hàng, cột của bảng.
+	Khi cộng tổng của cả $4$ hàng, cột của bảng lại với nhau, các số ở góc được tính hai lần. Như vậy ta có
+	\begin{align*}
+		4a = 1 + 2 + . . . + 16 + S.
+	\end{align*}
+	Ta nhận được $4a = 136 + S$, do đó $S$ phải chia hết cho $4$. Tổng của bốn số nhỏ nhất là $1 + 2 + 3 + 4 = 10$, không chia hết cho $4$. Do $S$ chia hết cho $4$, ta có $S\ge 12$.  Ví dụ sau cho thấy trường hợp $S=12$ có thể xảy ra:
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[scale=0.9,cackithi]
+			\draw (0,0) grid (5,5);
+			\draw[fill=white] (1,1) rectangle(4,4);
+			\draw (0.5,0.5) node {$6$};
+			\draw (1.5,0.5) node {$5$};
+			\draw (2.5,0.5) node {$16$};
+			\draw (3.5,0.5) node {$9$};
+			\draw (4.5,0.5) node {$1$};
+			\draw (0.5,4.5) node {$2$};
+			\draw (1.5,4.5) node {$7$};
+			\draw (2.5,4.5) node {$15$};
+			\draw (3.5,4.5) node {$10$};
+			\draw (4.5,4.5) node {$3$};
+			\draw (0.5,1.5) node {$4$};
+			\draw (0.5,2.5) node {$14$};
+			\draw (0.5,3.5) node {$11$};
+			\draw (4.5,1.5) node {$8$};
+			\draw (4.5,2.5) node {$13$};
+			\draw (4.5,3.5) node {$12$};
+		\end{tikzpicture}
+		\vspace*{-10pt}
+	\end{figure}
+	Vậy tổng nhỏ nhất có thể của bốn số ở góc là $12$.
+	\vskip 0.1cm
+	{\bf\color{cackithi} OC$\pmb{39.}$} Cho hình đa giác đều $9$ cạnh $ABCDEFGHI$ như hình vẽ. Chứng minh rằng $AB + AC =AE.$
+	\begin{figure}[H]
+%		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[cackithi,scale=0.8]
+			\draw  (1,2)-- (3,2);
+			\draw  (3,2)-- (4.532088886237956,3.2855752193730785);
+			\draw  (4.532088886237956,3.2855752193730785)-- (4.879385241571817,5.255190725397494);
+			\draw  (4.879385241571817,5.255190725397494)-- (3.879385241571817,6.9872415329663715);
+			\draw  (3.879385241571817,6.9872415329663715)-- (2,7.671281819617709);
+			\draw  (2,7.671281819617709)-- (0.12061475842818448,6.987241532966372);
+			\draw  (0.12061475842818448,6.987241532966372)-- (-0.8793852415718164,5.255190725397496);
+			\draw  (-0.8793852415718164,5.255190725397496)-- (-0.5320888862379562,3.28557521937308);
+			\draw  (-0.5320888862379562,3.28557521937308)-- (1,2);
+			\draw  (1,2)-- (4.532088886237956,3.2855752193730785);
+			\draw  (1,2)-- (3.879385241571817,6.9872415329663715);
+			\draw [fill=white] (1,2) circle (1.5pt);
+			\draw (0.7965821732136155,1.687828189189382) node {$A$};
+			\draw [fill=white] (3,2) circle (1.5pt);
+			\draw (3.1515078452112713,1.7212313902106253) node {$B$};
+			\draw [fill=white] (4.532088886237956,3.2855752193730785) circle (1.5pt);
+			\draw (4.855071097294682,3.2744802376984405) node {$C$};
+			\draw [fill=white] (4.879385241571817,5.255190725397494) circle (1.5pt);
+			\draw (5.222506308528359,5.4122851030580135) node {$D$};
+			\draw [fill=white] (3.879385241571817,6.9872415329663715) circle (1.5pt);
+			\draw (4.019991071763599,7.349670762290128) node {$E$};
+			\draw [fill=white] (2,7.671281819617709) circle (1.5pt);
+			\draw (2.0157990104889976,8.18475078782121) node {$F$};
+			\draw [fill=white] (0.12061475842818448,6.987241532966372) circle (1.5pt);
+			\draw (-0.13870745538119822,7.383073963311371) node {$G$};
+			\draw [fill=white] (-0.8793852415718164,5.255190725397496) circle (1.5pt);
+			\draw (-1.2243114885716069,5.345478701015527) node {$H$};
+			\draw [fill=white] (-0.5320888862379562,3.28557521937308) circle (1.5pt);
+			\draw (-0.7566666742742002,3.040657830549737) node {$I$};
+		\end{tikzpicture}
+		\vspace*{-5pt}
+	\end{figure}
+	\textit{Lời giải.}
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[cackithi,scale=0.6]
+				\draw  (0.,0.)-- (2.,0.);
+				\draw  (2.,0.)-- (3.5320888862379554,1.285575219373078);
+				\draw  (3.5320888862379554,1.285575219373078)-- (3.879385241571816,3.255190725397493);
+				\draw  (3.879385241571816,3.255190725397493)-- (2.879385241571817,4.987241532966371);
+				\draw  (2.879385241571817,4.987241532966371)-- (1.,5.6712818196177075);
+				\draw  (1.,5.6712818196177075)-- (-0.8793852415718155,4.987241532966372);
+				\draw  (-0.8793852415718155,4.987241532966372)-- (-1.879385241571816,3.2551907253974957);
+				\draw  (-1.879385241571816,3.2551907253974957)-- (-1.5320888862379562,1.2855752193730794);
+				\draw  (-1.5320888862379562,1.2855752193730794)-- (0.,0.);
+				\draw  (2.879385241571817,4.987241532966371)-- (0.,0.);
+				\draw  (0.,0.)-- (3.5320888862379554,1.285575219373078);
+				\draw  (-3.758770483143634,0.)-- (5.758770483143629,0.);
+				\draw  (5.758770483143629,0.)-- (1.,8.242432258363866);
+				\draw  (1.,8.242432258363866)-- (-3.758770483143634,0.);
+				\draw  (3.879385241571816,3.255190725397493)-- (2.,0.);
+				\draw [fill=white] (0.,0.) circle (1.5pt);
+				\draw (-0.07528562863886457,-0.43379411176933735) node {$A$};
+				\draw [fill=white] (2.,0.) circle (1.5pt);
+				\draw (2.0459844597319674,-0.43379411176933735) node {$B$};
+				\draw [fill=white] (3.5320888862379554,1.285575219373078) circle (1.5pt);
+				\draw (3.8826939264920775,1.0407472911225826) node {$C$};
+				\draw [fill=white] (3.879385241571816,3.255190725397493) circle (1.5pt);
+				\draw (4.167254548102799,3.705269475295701) node {$D$};
+				\draw [fill=white] (2.879385241571817,4.987241532966371) circle (1.5pt);
+				\draw (3.158357798755696,5.438502352379185) node {$E$};
+				\draw [fill=white] (1.,5.6712818196177075) circle (1.5pt);
+				\draw (1.2181717423189597,6.266315069792193) node {$F$};
+				\draw [fill=white] (-0.8793852415718155,4.987241532966372) circle (1.5pt);
+				\draw (-1.161789820243437,5.516109794636655) node {$G$};
+				\draw [fill=white] (-1.879385241571816,3.2551907253974957) circle (1.5pt);
+				\draw (-2.1965557170096965,3.757007770134014) node {$H$};
+				\draw [fill=white] (-1.5320888862379562,1.2855752193730794) circle (1.5pt);
+				\draw (-1.808518505722349,1.0924855859608955) node {$I$};
+				\draw [fill=white] (-3.758770483143634,0.) circle (1.5pt);
+				\draw (-4.188480068284746,-0.3044483746735549) node {$Z$};
+				\draw [fill=white] (5.758770483143629,0.) circle (1.5pt);
+				\draw (6.133309751958692,-0.3820558169310243) node {$X$};
+				\draw [fill=white] (1.,8.242432258363866) circle (1.5pt);
+				\draw (1.1923025948998034,8.672145779773746) node {$Y$};
+			\end{tikzpicture}
+		\vspace*{-5pt}
+	\end{figure}
+	Kéo dài các cạnh $AB, DE, GH$ để chúng cắt nhau tạo thành tam giác $XYZ$ như hình vẽ. Do tính đối xứng, ta có tam giác $XYZ$ đều và các đoạn thẳng $EA, DB$ đều song song với $GH.$ Do đó $XDB$ và $XEA$  cũng là các tam giác đều. Từ đó chúng ta nhận được điều cần chứng minh:
+	\begin{align*}
+		AE \!=\! AX \!=\! AB \!+\! BX \!=\! AB \!+\! BD \!=\! AB \!+\! AC.
+	\end{align*}
+	Trong phần cuối của chuyên mục kỳ này, chúng tôi sẽ giới thiệu với bạn đọc ba bài toán trong kỳ thi Olympic toán Tuymaada năm $2022$ của nước cộng hòa Sakha (Yakutia), thuộc Liên bang Nga. Các bài toán này phù hợp với trình độ học sinh lớp $9-10$.
+	\vskip 0.1cm
+	{\bf\color{cackithi}OC$\pmb{46.}$} Arnim và Brentano có một chiếc bình nhỏ đựng $1500$ viên kẹo trên bàn và một túi lớn đựng kẹo dự phòng dưới gầm bàn. Họ thay phiên nhau chơi một trò chơi với Arnim bắt đầu trước. Ở mỗi lượt đi, người chơi có thể ăn $7$ viên kẹo trong bình hoặc lấy $6$ viên kẹo từ túi bên dưới và thêm chúng vào bình. Người chơi không được lấy kẹo trong túi dưới gầm bàn hai lần liên tiếp. Người chơi được tuyên bố là người chiến thắng nếu làm cho chiếc bình rỗng sau lượt chơi của mình. Trong mọi trường hợp khác, nếu một người chơi không thể thực hiện được nước đi trong lượt của mình, trò chơi được tuyên bố là hòa. Liệu người nào có chiến lược để luôn chiến thắng?
+	\vskip 0.1cm
+	{\bf\color{cackithi} OC$\pmb{47.}$} Cho $M$ là trung điểm của cạnh $AB$ trong tam giác đều $ABC$. điểm $D$ thuộc cạnh $BC$ sao cho $BD : DC = 3 : 1.$ Giả sử $T$ là điểm trên đường thẳng đi qua $C$ và song song với $MD$ sao cho $\angle CTA = 150^\circ$. Tìm số đo $\angle MTD$.
+	\vskip 0.1cm
+	{\bf\color{cackithi} OC$\pmb{48.}$} Cho các số nguyên $a, b, c$ và số nguyên tố lẻ $p.$ Chứng minh rằng tồn tại các số nguyên $x$ và $y$ sao cho $p$ là ước của
+	\begin{align*}
+		x^2 + y^2 +
+		ax + by + c.
+	\end{align*}
 \end{multicols}
