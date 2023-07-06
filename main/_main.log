@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2022.2.16)  4 JUL 2023 14:41
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2022.2.16)  6 JUL 2023 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3316,8 +3316,6 @@ File: ../toancuabi/pic//Pi4_bai1.jpg Graphic file (type bmp)
 <../toancuabi/pic//Pi4_bai1.jpg>
 File: ../toancuabi/pic//Pi4_bai2.jpg Graphic file (type bmp)
 <../toancuabi/pic//Pi4_bai2.jpg>
-File: ../toancuabi/pic//Pi4_bai3.jpg Graphic file (type bmp)
-<../toancuabi/pic//Pi4_bai3.jpg>
 File: ../toancuabi/pic//../tieude2.pdf Graphic file (type pdf)
 <use ../toancuabi/pic//../tieude2.pdf>
 File: toancuabi2.pdf Graphic file (type pdf)
@@ -3333,6 +3331,8 @@ File: toancuabi2.pdf Graphic file (type pdf)
 File: ftoancuabi2.pdf Graphic file (type pdf)
 <use ftoancuabi2.pdf>
  [9]
+File: ../toancuabi/pic//Pi4_bai3.jpg Graphic file (type bmp)
+<../toancuabi/pic//Pi4_bai3.jpg>
 File: ../toancuabi/pic//Pi4_bai4.jpg Graphic file (type bmp)
 <../toancuabi/pic//Pi4_bai4.jpg>
 File: ../toancuabi/pic//Pi4_bai5.jpg Graphic file (type bmp)
@@ -3394,7 +3394,7 @@ File: ../toancuabi/pic//32.png Graphic file (type bmp)
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 12 might be wrong on input line 677
+(multicol)                Footnotes on page 12 might be wrong on input line 678
 .
 
 
@@ -3441,21 +3441,21 @@ File: ../toancuabi/pic//43.png Graphic file (type bmp)
 File: ../toancuabi/pic//44.png Graphic file (type bmp)
 <../toancuabi/pic//44.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 []\TU/EBGaramond(0)/m/n/12 [$[]\OT1/ztmcm/m/n/12 1$[]\TU/EBGaramond(0)/m/n/12 ]
  [][]$[][][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][] []
  [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--729
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
 []\TU/EBGaramond(0)/m/n/12 [$[]\OT1/ztmcm/m/n/12 2$[]\TU/EBGaramond(0)/m/n/12 ]
  [][]$[][][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][] []
  [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--732
+Underfull \hbox (badness 10000) in paragraph at lines 731--733
 [][]$[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][] []
  []
@@ -3473,55 +3473,55 @@ File: toancuabi2.pdf Graphic file (type pdf)
 File: ftoancuabi2.pdf Graphic file (type pdf)
 <use ftoancuabi2.pdf>
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 752--752
+Underfull \hbox (badness 10000) in paragraph at lines 753--753
 [][][]\TU/EBGaramond(0)/b/n/12 Example \TU/EBGaramond(0)/m/n/12 (Pigeonhole Pri
 nciple)\TU/EBGaramond(0)/b/n/12 .[] \TU/EBGaramond(0)/m/n/12 Each
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 752--752
+Underfull \hbox (badness 7099) in paragraph at lines 753--753
 \TU/EBGaramond(0)/m/n/12 below for an example. Viet calculates
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 752--753
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 753--754
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 776--777
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
 []\TU/EBGaramond(0)/m/n/12 In this example, we have applied the
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 780--781
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 781--782
 [][] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 786--787
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 787--788
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--880
+Underfull \hbox (badness 10000) in paragraph at lines 879--881
 []\TU/EBGaramond(0)/m/n/12 In this example, we have applied the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--880
+Underfull \hbox (badness 10000) in paragraph at lines 879--881
 \TU/EBGaramond(0)/m/n/12 Invariant Principle: \TU/EBGaramond(0)/m/it/12 In math
 ematics, an
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 888--889
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 889--890
 [][] 
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 14 might be wrong on input line 890
+(multicol)                Footnotes on page 14 might be wrong on input line 891
 .
 
 
@@ -3539,22 +3539,22 @@ File: ftoancuabi1.pdf Graphic file (type pdf)
 <use ftoancuabi1.pdf>
 
 [14]
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 900--901
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 901--902
 [][] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 906--907
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 907--908
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--919
+Underfull \hbox (badness 10000) in paragraph at lines 916--920
 []\TU/EBGaramond(0)/m/n/12 In this example, we have applied the
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 930--931
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 931--932
 [][] 
  []
 
@@ -3571,23 +3571,23 @@ File: toancuabi2.pdf Graphic file (type pdf)
 File: ftoancuabi2.pdf Graphic file (type pdf)
 <use ftoancuabi2.pdf>
 [15]
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 943--944
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 944--945
 [][] 
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 948--952
+Underfull \hbox (badness 7326) in paragraph at lines 949--953
 \TU/EBGaramond(0)/m/n/12 positions, while $[]\OML/ztmcm/m/it/12 G[]; G[]; G[]; 
 G[];$[] \TU/EBGaramond(0)/m/n/12 and $[]\OML/ztmcm/m/it/12 G[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 988--988
+Underfull \hbox (badness 10000) in paragraph at lines 989--989
 []\TU/EBGaramond(0)/m/n/12 Pigeonhole Principle (n):[] Nguyên lý
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 988--989
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 989--990
 [][] 
  []
 
@@ -3840,6 +3840,18 @@ Underfull \hbox (badness 5667) in paragraph at lines 735--736
 0)/b/n/12 THPT chuyên Lương Văn
  []
 
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 750.
+Requested font "[EBGaramond-Regular.otf]/OT:script=latn;language=dflt;+pnum;+on
+um;mapping=tex-text;" at 20.74pt
+ -> C:/Users/iamsi/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramo
+nd/EBGaramond-Regular.otf
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
+(Font)              scaled to size 20.74pt on input line 750.
+Requested font "[EBGaramond-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;
+mapping=tex-text;" at 20.74pt
+ -> C:/Users/iamsi/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramo
+nd/EBGaramond-Bold.otf
 )
 File: thachthuc1.pdf Graphic file (type pdf)
 <use thachthuc1.pdf>
@@ -4781,7 +4793,10 @@ File: gocco2.pdf Graphic file (type pdf)
 File: fgocco2.pdf Graphic file (type pdf)
 <use fgocco2.pdf>
 
-[65]) (_main.aux)
+[65])
+File: dovui.pdf Graphic file (type pdf)
+<use dovui.pdf>
+ [66] (_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -4792,12 +4807,12 @@ Package logreq Info: Writing requests to '_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 71770 strings out of 410969
- 1637798 string characters out of 2823810
+ 71784 strings out of 410969
+ 1638206 string characters out of 2823810
  2681287 words of memory out of 3000000
- 91135 multiletter control sequences out of 15000+600000
- 513678 words of font info for 157 fonts, out of 8000000 for 9000
+ 91146 multiletter control sequences out of 15000+600000
+ 513694 words of font info for 159 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,120p,1348b,1209s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on _main.pdf (65 pages).
+Output written on _main.pdf (66 pages).
