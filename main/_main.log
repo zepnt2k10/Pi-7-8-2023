@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  10 JUL 2023 10:39
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  10 JUL 2023 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3482,34 +3482,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 777--778
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 781--782
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 783--784
 [][] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 787--788
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 789--790
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--881
+Underfull \hbox (badness 10000) in paragraph at lines 881--883
 []\TU/EBGaramond(0)/m/n/12 In this example, we have applied the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--881
+Underfull \hbox (badness 10000) in paragraph at lines 881--883
 \TU/EBGaramond(0)/m/n/12 Invariant Principle: \TU/EBGaramond(0)/m/it/12 In math
 ematics, an
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 889--890
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 891--892
 [][] 
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 15 might be wrong on input line 891
+(multicol)                Footnotes on page 15 might be wrong on input line 893
 .
 
 
@@ -3527,22 +3527,22 @@ File: ftoancuabi2.pdf Graphic file (type pdf)
 <use ftoancuabi2.pdf>
 
 [15]
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 901--902
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 903--904
 [][] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 907--908
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 909--910
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 916--920
+Underfull \hbox (badness 10000) in paragraph at lines 918--922
 []\TU/EBGaramond(0)/m/n/12 In this example, we have applied the
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 931--932
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 933--934
 [][] 
  []
 
@@ -3559,23 +3559,23 @@ File: toancuabi1.pdf Graphic file (type pdf)
 File: ftoancuabi1.pdf Graphic file (type pdf)
 <use ftoancuabi1.pdf>
 [16]
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 944--945
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 946--947
 [][] 
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 949--953
+Underfull \hbox (badness 7326) in paragraph at lines 951--955
 \TU/EBGaramond(0)/m/n/12 positions, while $[]\OML/ztmcm/m/it/12 G[]; G[]; G[]; 
 G[];$[] \TU/EBGaramond(0)/m/n/12 and $[]\OML/ztmcm/m/it/12 G[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 989--989
+Underfull \hbox (badness 10000) in paragraph at lines 991--991
 []\TU/EBGaramond(0)/m/n/12 Pigeonhole Principle (n):[] Nguyên lý
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 989--990
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 991--992
 [][] 
  []
 
@@ -4103,7 +4103,6 @@ File: fcackithi1.pdf Graphic file (type pdf)
 <use fcackithi1.pdf>
  [40]
 Missing character: There is no ⋯ in font zptmcm7t!
-Missing character: There is no × in font zptmcm7t!
 File: cackithi2.pdf Graphic file (type pdf)
 <use cackithi2.pdf>
 File: fcackithi2.pdf Graphic file (type pdf)
